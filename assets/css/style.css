@@ -292,7 +292,7 @@ h2 span:after {
   line-height: 1.5;
   position: absolute;
   top: 10px;
-  left: -20px;
+  left: -40px;
   -webkit-transition: 0.4s all;
   -moz-transition: 0.4s all ;
   -ms-transition: 0.4s all;
