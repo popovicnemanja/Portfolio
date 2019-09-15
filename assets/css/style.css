@@ -120,7 +120,7 @@ h1 span:before, h1 span:after {
   height: 20px;
   display: inline-block;
   position: absolute;
-  top: 12px;
+  top: 8px;
   background-image: url('../img/white-star.svg');
   -webkit-animation: span-animation 0.5s 1s forwards;
   -moz-animation: span-animation 0.5s 1s forwards;
@@ -148,17 +148,16 @@ h1 span:before, h1 span:after {
 }
 
 h1 span:before {
-  left: -18px; 
+  left: -30px; 
 }
 
 h1 span:after {
-  right: -18px; 
+  right: -30px; 
 }
 
 @-webkit-keyframes h1-animation {
   0% {
     color: white;
-    } 
   }
   100% {
     color: black; 
