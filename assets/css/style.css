@@ -31,7 +31,7 @@ body, html {
 }
 
 body {
-  background-image: url('../img/background-vinjau2.jpg');
+  background-image: url('../img/background.jpg');
   background-size: cover;
   background-position: bottom center; 
 }
@@ -72,7 +72,7 @@ body {
     transform: translateY(-50%); 
   }
   100% {
-    top: 10%;
+    top: 26%;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -89,7 +89,7 @@ body {
     transform: translateY(-50%); 
   }
   100% {
-    top: 10%;
+    top: 26%;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -416,5 +416,19 @@ h2 span:after {
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2); 
+  }
+
+  @-webkit-keyframes contact-icons-animation {
+    100% {
+      opacity: 1;
+      top: 31%; 
+    } 
+  }
+
+  @keyframes contact-icons-animation {
+    100% {
+      top: 31%;
+      opacity: 1; 
+    } 
   }  
 }   
