@@ -319,7 +319,7 @@ h2 span:after {
   }
   100% {
     opacity: 1;
-    top: 35%; 
+    top: 36%; 
   } 
 }
 
@@ -328,7 +328,7 @@ h2 span:after {
     opacity: 0; 
   }
   100% {
-    top: 35%;
+    top: 36%;
     opacity: 1; 
   } 
 }
