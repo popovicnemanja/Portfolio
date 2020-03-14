@@ -334,6 +334,10 @@ h2 span:after {
 }
 
 @media only screen and (min-width: 320px) and (orientation: landscape) {
+  h1 {
+    font-size: 17px;
+  }
+
   @-webkit-keyframes logo-animation {
     100% {
       top: 7%;
@@ -353,6 +357,26 @@ h2 span:after {
       transform: translateY(0); 
     } 
   }
+
+  @-webkit-keyframes contact-icons-animation {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1;
+    top: 25%; 
+  } 
+}
+
+@keyframes contact-icons-animation {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+    top: 25%;
+  } 
+}
 
 }
     
