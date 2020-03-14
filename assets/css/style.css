@@ -332,6 +332,29 @@ h2 span:after {
     top: 38%;
   } 
 }
+
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  @-webkit-keyframes logo-animation {
+    100% {
+      top: 7%;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); 
+    } 
+  }
+
+  @keyframes logo-animation {
+    100% {
+      top: 7%;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); 
+    } 
+  }
+
+}
     
 @media only screen and (min-width: 768px) {
   @-webkit-keyframes logo-animation {
